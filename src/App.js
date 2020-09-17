@@ -6,6 +6,14 @@ function App() {
     // BEM naming convention
     <div className="app">
       <h1>Hello world lets build a Facebook Clone</h1>
+
+      {/* Header  */}
+
+      {/* App body  */}
+        {/* Sidebar  */}
+        {/* Feed  */}
+        {/* Widgets  */}
+        
     </div>
   );
 }
