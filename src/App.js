@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     // BEM naming convention
-    <div className="App">
+    <div className="app">
       <h1>Hello world lets build a Facebook Clone</h1>
     </div>
   );
