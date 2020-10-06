@@ -13,5 +13,5 @@ Firebase Google Auth (Full Login)
 React flip move
 
 Stories to complete:
-[] Add post button
-[] Track Likes
+[] Add post button that allows for mobile visitors to post on the feed
+[] Track Likes via state component management
