@@ -8,13 +8,16 @@ import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import { ExpandMoreOutlined } from '@material-ui/icons';
+import { useStateValue } from './StateProvider';
 
 function Sidebar() {
+    const [{ user }, dispatch] = useStateValue();
+
     return (
         <div className='sidebar'>
             <SidebarRow 
-                src='https://media-exp1.licdn.com/dms/image/C4E35AQEeOLrrJKWSeA/profile-framedphoto-shrink_200_200/0?e=1600552800&v=beta&t=n4XbgqKFoidyucUvQHVCA8GVBV0oPqOroUoLWxQjJR8' 
-                title='Heriberto Roman'
+                src={user.photoURL}
+                title={user.displayName}
             />
             <SidebarRow 
                 Icon={LocalHospitalIcon} 
