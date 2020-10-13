@@ -7,8 +7,6 @@ import ChatBubbleOutlineIcon from '@material-ui/icons/ChatBubbleOutline';
 import NearMeIcon from '@material-ui/icons/NearMe';
 import { ExpandMoreOutlined} from '@material-ui/icons';
 
-
-
 export default function Post({ profilePic, image, username, timestamp, message }) {
     return (
         <div className='post'>

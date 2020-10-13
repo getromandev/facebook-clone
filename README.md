@@ -1,17 +1,28 @@
-Facebook Clone REACT JS and firebase!🚀🔥
-Link: https://facebook-clone-d01cb.web.app/
+![](./public/img/FB.gif)
 
-Tech used in Facebook clone build
+### Facebook Clone REACT JS and firebase! 🚀🔥
+---
 
-React + React Hooks
-React context API => REDUX pattern
-Material UI
-Flexbox
-Firebase Firestore realtime DB
-Firebase Hosting
-Firebase Google Auth (Full Login) 
-React flip move
+### Demo
+https://facebook-clone-d01cb.web.app/
 
-Stories to complete:
-[] Add post button that allows for mobile visitors to post on the feed
-[] Track Likes via state component management
+---
+
+### Tech Stack
+##### ```Scaffolding```
+- HTML
+
+##### ```Styling```
+- Material UI
+- CSS
+- Flexbox
+- Grid
+- BEM
+
+##### ```Nuts and Bolts```
+- React + React Hooks
+- React context API => REDUX pattern
+- Firebase Firestore realtime DB
+- Firebase Hosting
+- Firebase Google Auth (Full Login) 
+- React flip move
